@@ -11,11 +11,13 @@ Vote and read the results at <https://nikkolasg.github.io/zcash-agora/>.
 
 | Path | Content |
 |---|---|
-| `ledger.json` | the ledger setup: origin, log key, ingest key, relays |
+| `checkpoint.txt` | the latest signed checkpoint: the log's head, index and time, under the log key |
+| `checkpoints/<n>.txt` | every checkpoint, in order |
+| `entries/<n>.json` | the entries of checkpoint `n`: each registration, ballot and tally as received, with its proof and the ingest's receipt |
+| `setup/ledger.json` | the ledger setup: origin, log key, ingest key, relays |
 | `registries/<id>.json` | each registry: who may register (the ZKPassport policy) |
 | `polls/<id>.json` | each poll: question, options, opening and closing times, drand round, circuit hash |
-| `checkpoints/` | one file per checkpoint: the signed head of the log at that time |
-| `messages/` | every registration, ballot and tally, as received, with its proof |
+| `stamps/<n>.ots` | OpenTimestamps proofs anchoring checkpoints in Bitcoin |
 | `circuits/<name>/` | the compiled Noir circuit and its verification key; its hash is pinned by each poll |
 
 The exact layout is isoloir's: see [isoloir](https://github.com/lanterne-labs/isoloir),
@@ -23,9 +25,9 @@ The exact layout is isoloir's: see [isoloir](https://github.com/lanterne-labs/is
 
 ## What you can check from here alone
 
-- **That a ballot is in the log**: find it under `messages/` by its hash
-  (the receipt on the vote page shows it) and check the checkpoint that
-  covers it carries the log key's signature.
+- **That a ballot is in the log**: find it under `entries/` by its hash
+  (the receipt on the vote page shows it and the checkpoint number) and
+  check that checkpoint carries the log key's signature.
 - **That every ballot came from one registered person**: each ballot
   carries a proof against the registry; `isoloir audit` replays all of
   them with circuits you built yourself.
