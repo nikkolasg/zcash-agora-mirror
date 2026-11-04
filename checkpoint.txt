@@ -1,7 +1,9 @@
 nikkolasg.github.io/zcash-agora
-1
-o0H+EahWnP+sKqVw6NFFJ75KIzPNt7/2Hg4ZblEAHvc=
-index 1
-time 1793697621
+2
+m6C9KWydb/9nJxRf/QaR5Um226kWjqIs7U4RdOUHGno=
+index 2
+time 1793697681
+registry 1 0 0x128e74cf6f8b2a56a6eeadb0426b35b3ad48f77e73e0b6103f40d89f48a2d221
+mirror 419971c4c6c69ea2d7c9bc99baee13817a84f989
 
-— nikkolasg.github.io/zcash-agora CdF08T8K0BELGHiX57XnQFDE1JGhOk6Y7VNiwzMAPytQ3yhpti+2T7Chlhm5l7BkQsXsbHqZtije8oIqDp52lkgoeQE=
+— nikkolasg.github.io/zcash-agora CdF08QmE7hQfMGwCncsyh2lZpbmuT/41T2plj/L/eilJThKwVCEOOrf7Y2RNdwiWHHxSQ2By2G1M3arzurtm6bsZEwg=
