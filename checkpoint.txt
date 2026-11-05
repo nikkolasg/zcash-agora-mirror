@@ -1,9 +1,9 @@
 zcash-agora
 3
 ZR1iIKwAg/zzxsfrSBexZT0cHmb49Qr9lNRz125Yq2E=
-index 140
-time 1793892830
+index 141
+time 1793893430
 registry 1 0 0x128e74cf6f8b2a56a6eeadb0426b35b3ad48f77e73e0b6103f40d89f48a2d221
-mirror 9dfbcb0f1777e9686eafc67c28a2f73fe4a6d80a
+mirror 1f4d473bcadd3642bd032ada7518243aae1655ac
 
-— zcash-agora PQX8iyhPAkEhAlINs96y1c1CHVuQUfrs4LFjnwOi/olXaczCp63p00PkCSAA6umj/tUG9Dxx1/kl+0dN07o0Yn5C+gc=
+— zcash-agora PQX8i/3sflX26NDeSh+KBAZXBMp0pBERtLoBvcJ2c2EXH88kdW6iR99+zk6Oh0bPpZHAPU2TFmV81YqKLns4/zEN2Aw=
